@@ -18,7 +18,7 @@
 | Compute（コンピューティング） | AWS Parallel Computing Service | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS SimSpace Weaver | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Global View | いいえ | いいえ |  |
-| Containers（コンテナ） | Amazon ECR | はい | はい |  |
+| Containers（コンテナ） | Amazon ECR | はい | はい | コンテナイメージを置く理解で利用した。脆弱性スキャンは未利用。 |
 | Containers（コンテナ） | Amazon ECS | はい | いいえ |  |
 | Containers（コンテナ） | Amazon EKS | はい | いいえ |  |
 | Containers（コンテナ） | Red Hat OpenShift Service on AWS | いいえ | いいえ |  |
@@ -51,7 +51,7 @@
 | Migration and transfer（移行と転送） | AWS Transform | いいえ | いいえ |  |
 | Migration and transfer（移行と転送） | ~~Amazon Elastic VMware Service~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon VPC | はい | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon CloudFront | はい | はい |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon CloudFront | はい | はい | 配信サービスとして理解し、Reactビルドの配信で使った。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 | はい | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon API Gateway | はい | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS Direct Connect~~ | いいえ | いいえ | 個人利用は難しそう。 |
@@ -62,12 +62,12 @@
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 Global Resolver | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS RTB Fabric~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS Data Transfer Terminal~~ | いいえ | いいえ | 個人利用は難しそう。 |
-| Developer tools（開発者用ツール） | AWS CodeCommit | はい | はい |  |
-| Developer tools（開発者用ツール） | AWS CodeBuild | はい | はい |  |
+| Developer tools（開発者用ツール） | AWS CodeCommit | はい | はい | GitHubの代替のような位置づけと理解。AWSの認可と連携できて便利そう。 |
+| Developer tools（開発者用ツール） | AWS CodeBuild | はい | はい | GitHub Actions的な理解だが、初期設定は未経験。一時的な計算資源として使うイメージ。 |
 | Developer tools（開発者用ツール） | AWS CodeDeploy | はい | いいえ |  |
-| Developer tools（開発者用ツール） | AWS CodePipeline | はい | はい |  |
+| Developer tools（開発者用ツール） | AWS CodePipeline | はい | はい | GitHub Actionsのような理解で、処理の順番を組むものという印象。WaveやStageがあった記憶。 |
 | Developer tools（開発者用ツール） | AWS Cloud9 | はい | いいえ |  |
-| Developer tools（開発者用ツール） | AWS CloudShell | はい | はい |  |
+| Developer tools（開発者用ツール） | AWS CloudShell | はい | はい | ログイン中のIAM権限でAWS CLIを使えるのが便利だと感じた。 |
 | Developer tools（開発者用ツール） | AWS X-Ray | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS FIS | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS CodeArtifact | いいえ | いいえ |  |
@@ -137,7 +137,7 @@
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Polly | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Rekognition | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Textract | いいえ | いいえ |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Transcribe | はい | はい |  |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Transcribe | はい | はい | 文字起こしサービスとして理解。バッチ処理で音声文字起こしアプリを作った。 |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Translate | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS Panorama | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Monitron | いいえ | いいえ |  |
@@ -146,7 +146,7 @@
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Lex | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Comprehend Medical | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS HealthOmics | いいえ | いいえ |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock | はい | はい |  |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock | はい | はい | Claude利用時に使った。配下サービスの理解はまだ浅い。 |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock AgentCore | はい | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Nova Act | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS HealthImaging | いいえ | いいえ |  |
@@ -173,7 +173,7 @@
 | Analytics（分析） | Amazon Managed Service for Apache Flink | いいえ | いいえ |  |
 | Analytics（分析） | Amazon Quick Suite | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Resource Access Manager | いいえ | いいえ |  |
-| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Cognito | はい | はい |  |
+| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Cognito | はい | はい | 認証サービスだと理解しているが、設定手順はまだ不明。認証付きアプリのデプロイ時に少し触った。 |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Secrets Manager | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon GuardDuty | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Inspector | いいえ | いいえ |  |
