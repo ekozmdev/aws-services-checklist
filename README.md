@@ -100,7 +100,7 @@
 | AWS CodePipeline | はい | はい | GitHub Actionsのような理解で、処理の順番を組むものという印象。WaveやStageがあった記憶。 | 2026/01/24 |
 | AWS Cloud9 | はい | いいえ |  | 2026/01/24 |
 | AWS CloudShell | はい | はい | ログイン中のIAM権限でAWS CLIを使えるのが便利だと感じた。 | 2026/01/24 |
-| AWS X-Ray | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でトレーシングが言及されていた。 | 2026/01/24 |
+| AWS X-Ray | はい | いいえ | トレーシングで言及されていた。[3] | 2026/01/24 |
 | AWS FIS | いいえ | いいえ |  |  |
 | AWS CodeArtifact | いいえ | いいえ |  |  |
 | Amazon Q Developer | いいえ | いいえ |  |  |
@@ -144,8 +144,8 @@
 | サービス名 | 知っている | 触ったことがある | メモ | 更新日 |
 | --- | --- | --- | --- | --- |
 | AWS Organizations | いいえ | いいえ |  |  |
-| Amazon CloudWatch | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で運用・監視の文脈を把握した。 | 2026/01/24 |
-| CloudWatch Logs | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でログ運用の位置づけを把握した。 | 2026/01/24 |
+| Amazon CloudWatch | はい | いいえ | 運用・監視の文脈を把握した。[3] | 2026/01/24 |
+| CloudWatch Logs | はい | いいえ | ログ運用の位置づけを把握した。[3] | 2026/01/24 |
 | AWS Auto Scaling | いいえ | いいえ |  |  |
 | AWS CloudFormation | いいえ | いいえ |  |  |
 | AWS Config | いいえ | いいえ |  |  |
@@ -214,11 +214,11 @@
 | Amazon Lex | いいえ | いいえ |  |  |
 | Amazon Comprehend Medical | いいえ | いいえ |  |  |
 | AWS HealthOmics | いいえ | いいえ |  |  |
-| Amazon Bedrock | はい | はい | Claude利用時に使った。書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で補足した。 | 2026/01/24 |
-| Amazon Bedrock AgentCore | はい | はい | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』のハンズオンでLangGraph/AgentCoreを試した。 | 2026/01/24 |
-| Amazon Bedrock Agents | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で概要を把握した。 | 2026/01/24 |
-| Amazon Bedrock Guardrails | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で概要を把握した。 | 2026/01/24 |
-| Amazon Bedrock Flows | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で概要を把握した。 | 2026/01/24 |
+| Amazon Bedrock | はい | はい | Claude利用時に使った。補足は[3]。 | 2026/01/24 |
+| Amazon Bedrock AgentCore | はい | はい | LangGraph/AgentCoreのハンズオンを試した。[3] | 2026/01/24 |
+| Amazon Bedrock Agents | はい | いいえ | 概要を把握した。[3] | 2026/01/24 |
+| Amazon Bedrock Guardrails | はい | いいえ | 概要を把握した。[3] | 2026/01/24 |
+| Amazon Bedrock Flows | はい | いいえ | 概要を把握した。[3] | 2026/01/24 |
 | Amazon Nova Act | いいえ | いいえ |  |  |
 | AWS HealthImaging | いいえ | いいえ |  |  |
 | Amazon Q Business | いいえ | いいえ |  |  |
@@ -254,7 +254,7 @@
 | サービス名 | 知っている | 触ったことがある | メモ | 更新日 |
 | --- | --- | --- | --- | --- |
 | AWS Resource Access Manager | いいえ | いいえ |  |  |
-| Amazon Cognito | はい | はい | 認証サービスだと理解しているが、設定手順はまだ不明。書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でも言及があった。 | 2026/01/24 |
+| Amazon Cognito | はい | はい | 認証サービスだと理解しているが、設定手順はまだ不明。関連: [3]。 | 2026/01/24 |
 | AWS Secrets Manager | いいえ | いいえ |  |  |
 | Amazon GuardDuty | いいえ | いいえ |  |  |
 | Amazon Inspector | いいえ | いいえ |  |  |
@@ -293,7 +293,7 @@
 
 | サービス名 | 知っている | 触ったことがある | メモ | 更新日 |
 | --- | --- | --- | --- | --- |
-| AWS Amplify | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でAmplify Gen2との統合に触れた。 | 2026/01/24 |
+| AWS Amplify | はい | いいえ | Amplify Gen2との統合に触れた。[3] | 2026/01/24 |
 | AWS AppSync | いいえ | いいえ |  |  |
 | AWS Device Farm | いいえ | いいえ |  |  |
 | Amazon Location Service | いいえ | いいえ |  |  |
@@ -306,7 +306,7 @@
 | Amazon AppFlow | いいえ | いいえ |  |  |
 | Amazon EventBridge | いいえ | いいえ |  |  |
 | Amazon MQ | いいえ | いいえ |  |  |
-| Amazon Simple Notification Service | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で通知サービスとして把握した。 | 2026/01/24 |
+| Amazon Simple Notification Service | はい | いいえ | 通知サービスとして把握した。[3] | 2026/01/24 |
 | Amazon Simple Queue Service | いいえ | いいえ |  |  |
 | Amazon SWF | いいえ | いいえ |  |  |
 | Amazon Managed Workflow for Apache Airflow | いいえ | いいえ |  |  |
@@ -397,6 +397,6 @@
 - 「その他（コンソール一覧外）」は、記事内で補足されているサービスです。
 
 ## 参考
-- https://docs.aws.amazon.com/ja_jp/
-- https://dev.classmethod.jp/articles/aws-summary-2026/
-- https://www.sbcr.jp/product/4815636609/
+1. [AWS公式ドキュメント](https://docs.aws.amazon.com/ja_jp/)
+2. [AWSサービス一覧 2026（クラスメソッド）](https://dev.classmethod.jp/articles/aws-summary-2026/)
+3. [AIエージェント開発／運用入門［生成AI深掘りガイド］](https://www.sbcr.jp/product/4815636609/)
