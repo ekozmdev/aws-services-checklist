@@ -15,8 +15,6 @@
 
 ## Commit & Pull Request Guidelines
 - コミットメッセージは Conventional Commits を使います（例: `docs: add checklist row for EC2`）。
-- コミットは 1 変更 1 目的で小さく保ちます。
-- PR には短い要約と関連リンク、必要に応じてスクリーンショットを含めます。
 
 ## Agent-Specific Instructions
 - 更新対象は `README.md` の表のみです。
