@@ -68,7 +68,7 @@
 | Developer tools（開発者用ツール） | AWS CodePipeline | はい | はい | GitHub Actionsのような理解で、処理の順番を組むものという印象。WaveやStageがあった記憶。 | 2026/01/24 |
 | Developer tools（開発者用ツール） | AWS Cloud9 | はい | いいえ |  | 2026/01/24 |
 | Developer tools（開発者用ツール） | AWS CloudShell | はい | はい | ログイン中のIAM権限でAWS CLIを使えるのが便利だと感じた。 | 2026/01/24 |
-| Developer tools（開発者用ツール） | AWS X-Ray | いいえ | いいえ |  |  |
+| Developer tools（開発者用ツール） | AWS X-Ray | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でトレーシングが言及されていた。 | 2026/01/24 |
 | Developer tools（開発者用ツール） | AWS FIS | いいえ | いいえ |  |  |
 | Developer tools（開発者用ツール） | AWS CodeArtifact | いいえ | いいえ |  |  |
 | Developer tools（開発者用ツール） | Amazon Q Developer | いいえ | いいえ |  |  |
@@ -87,7 +87,8 @@
 | Satellite（衛星） | ~~AWS Ground Station~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
 | Quantum technologies（Quantum Technologies） | ~~Amazon Braket~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
 | Management and governance（管理とガバナンス） | AWS Organizations | いいえ | いいえ |  |  |
-| Management and governance（管理とガバナンス） | Amazon CloudWatch | いいえ | いいえ |  |  |
+| Management and governance（管理とガバナンス） | Amazon CloudWatch | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で運用・監視の文脈を把握した。 | 2026/01/24 |
+| Management and governance（管理とガバナンス） | CloudWatch Logs | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でログ運用の位置づけを把握した。 | 2026/01/24 |
 | Management and governance（管理とガバナンス） | AWS Auto Scaling | いいえ | いいえ |  |  |
 | Management and governance（管理とガバナンス） | AWS CloudFormation | いいえ | いいえ |  |  |
 | Management and governance（管理とガバナンス） | AWS Config | いいえ | いいえ |  |  |
@@ -146,8 +147,11 @@
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Lex | いいえ | いいえ |  |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Comprehend Medical | いいえ | いいえ |  |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS HealthOmics | いいえ | いいえ |  |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock | はい | はい | Claude利用時に使った。配下サービスの理解はまだ浅い。 | 2026/01/24 |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock AgentCore | はい | いいえ |  | 2026/01/24 |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock | はい | はい | Claude利用時に使った。書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で補足した。 | 2026/01/24 |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock AgentCore | はい | はい | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』のハンズオンでLangGraph/AgentCoreを試した。 | 2026/01/24 |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock Agents | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で概要を把握した。 | 2026/01/24 |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock Guardrails | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で概要を把握した。 | 2026/01/24 |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock Flows | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で概要を把握した。 | 2026/01/24 |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Nova Act | いいえ | いいえ |  |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS HealthImaging | いいえ | いいえ |  |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Q Business | いいえ | いいえ |  |  |
@@ -173,7 +177,7 @@
 | Analytics（分析） | Amazon Managed Service for Apache Flink | いいえ | いいえ |  |  |
 | Analytics（分析） | Amazon Quick Suite | いいえ | いいえ |  |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Resource Access Manager | いいえ | いいえ |  |  |
-| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Cognito | はい | はい | 認証サービスだと理解しているが、設定手順はまだ不明。認証付きアプリのデプロイ時に少し触った。 | 2026/01/24 |
+| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Cognito | はい | はい | 認証サービスだと理解しているが、設定手順はまだ不明。書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でも言及があった。 | 2026/01/24 |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Secrets Manager | いいえ | いいえ |  |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon GuardDuty | いいえ | いいえ |  |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Inspector | いいえ | いいえ |  |  |
@@ -202,7 +206,7 @@
 | Cloud Financial Management（クラウド財務管理） | AWS Marketplace Subscriptions | いいえ | いいえ |  |  |
 | Cloud Financial Management（クラウド財務管理） | AWS Billing Conductor | いいえ | いいえ |  |  |
 | Cloud Financial Management（クラウド財務管理） | AWS Billing and Cost Management | いいえ | いいえ |  |  |
-| Front-end web and mobile（モバイル） | AWS Amplify | いいえ | いいえ |  |  |
+| Front-end web and mobile（モバイル） | AWS Amplify | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』でAmplify Gen2との統合に触れた。 | 2026/01/24 |
 | Front-end web and mobile（モバイル） | AWS AppSync | いいえ | いいえ |  |  |
 | Front-end web and mobile（モバイル） | AWS Device Farm | いいえ | いいえ |  |  |
 | Front-end web and mobile（モバイル） | Amazon Location Service | いいえ | いいえ |  |  |
@@ -210,7 +214,7 @@
 | Application integration（アプリケーション統合） | Amazon AppFlow | いいえ | いいえ |  |  |
 | Application integration（アプリケーション統合） | Amazon EventBridge | いいえ | いいえ |  |  |
 | Application integration（アプリケーション統合） | Amazon MQ | いいえ | いいえ |  |  |
-| Application integration（アプリケーション統合） | Amazon Simple Notification Service | いいえ | いいえ |  |  |
+| Application integration（アプリケーション統合） | Amazon Simple Notification Service | はい | いいえ | 書籍『AIエージェント開発／運用入門［生成AI深掘りガイド］』で通知サービスとして把握した。 | 2026/01/24 |
 | Application integration（アプリケーション統合） | Amazon Simple Queue Service | いいえ | いいえ |  |  |
 | Application integration（アプリケーション統合） | Amazon SWF | いいえ | いいえ |  |  |
 | Application integration（アプリケーション統合） | Amazon Managed Workflow for Apache Airflow | いいえ | いいえ |  |  |
@@ -277,3 +281,4 @@
 ## 参考
 - https://docs.aws.amazon.com/ja_jp/
 - https://dev.classmethod.jp/articles/aws-summary-2026/
+- https://www.sbcr.jp/product/4815636609/
