@@ -14,7 +14,7 @@
 | AWS Batch | いいえ | いいえ |  |  |
 | AWS Elastic Beanstalk | いいえ | いいえ |  |  |
 | AWS Serverless Application Repository | いいえ | いいえ |  |  |
-| ~~AWS Outposts~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS Outposts~~ | - | - | ラック導入と契約が前提で、費用面でも個人利用は難しい。 | 2026/01/24 |
 | Amazon EC2 Image Builder | いいえ | いいえ |  |  |
 | AWS App Runner | いいえ | いいえ |  |  |
 | AWS Parallel Computing Service | いいえ | いいえ |  |  |
@@ -56,7 +56,7 @@
 | Amazon DynamoDB | いいえ | いいえ |  |  |
 | Amazon MemoryDB | いいえ | いいえ |  |  |
 | Amazon Aurora DSQL | いいえ | いいえ |  |  |
-| ~~Oracle Database@AWS~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~Oracle Database@AWS~~ | - | - | Exadata専用インフラを契約する形で、費用が大きい。 | 2026/01/24 |
 
 ### Migration and transfer（移行と転送）
 
@@ -67,11 +67,11 @@
 | AWS Application Discovery Service | いいえ | いいえ |  |  |
 | AWS Database Migration Service | いいえ | いいえ |  |  |
 | AWS Transfer Family | いいえ | いいえ |  |  |
-| ~~AWS Snow Family~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS Snow Family~~ | - | - | ジョブごとのサービス料金と配送・返却が必要で、費用面のハードルが高い。 | 2026/01/24 |
 | AWS DataSync | いいえ | いいえ |  |  |
-| ~~AWS Mainframe Modernization~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS Mainframe Modernization~~ | - | - | メインフレーム資産前提の企業向けで、費用も大きく個人には難しい。 | 2026/01/24 |
 | AWS Transform | いいえ | いいえ |  |  |
-| ~~Amazon Elastic VMware Service~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~Amazon Elastic VMware Service~~ | - | - | VCFライセンスとi4i.metal構成が前提で、月額が大きく個人には厳しい。 | 2026/01/24 |
 
 ### Networking and content delivery（ネットワーキングとコンテンツ配信）
 
@@ -81,14 +81,14 @@
 | Amazon CloudFront | はい | はい | 配信サービスとして理解し、Reactビルドの配信で使った。 | 2026/01/24 |
 | Amazon Route 53 | はい | いいえ |  | 2026/01/24 |
 | Amazon API Gateway | はい | いいえ |  | 2026/01/24 |
-| ~~AWS Direct Connect~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS Direct Connect~~ | - | - | 専用線のポート時間料金が発生し、回線事業者費用もあり高コスト。 | 2026/01/24 |
 | AWS App Mesh | いいえ | いいえ |  |  |
 | AWS Global Accelerator | いいえ | いいえ |  |  |
 | AWS Cloud Map | いいえ | いいえ |  |  |
 | Amazon Route 53 Application Recovery Controller | いいえ | いいえ |  |  |
 | Amazon Route 53 Global Resolver | いいえ | いいえ |  |  |
-| ~~AWS RTB Fabric~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
-| ~~AWS Data Transfer Terminal~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS RTB Fabric~~ | - | - | 大量トランザクション課金のため高ボリューム前提で個人には不向き。 | 2026/01/24 |
+| ~~AWS Data Transfer Terminal~~ | - | - | ポート時間課金が高額で、費用面のハードルが高い。 | 2026/01/24 |
 
 ### Developer tools（開発者用ツール）
 
@@ -115,8 +115,8 @@
 
 | サービス名 | 知っている | 触ったことがある | メモ | 更新日 |
 | --- | --- | --- | --- | --- |
-| ~~AWS IQ~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
-| ~~AWS Managed Services~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS IQ~~ | - | - | 企業案件の発注・受託が前提で、個人利用には費用対効果が低い。 | 2026/01/24 |
+| ~~AWS Managed Services~~ | - | - | 運用代行の企業向けサービスで、料金は営業問い合わせ前提。 | 2026/01/24 |
 | AWS Activate for Startups | いいえ | いいえ |  |  |
 | AWS re:Post Private | いいえ | いいえ |  |  |
 | AWS サポート | いいえ | いいえ |  |  |
@@ -131,13 +131,13 @@
 
 | サービス名 | 知っている | 触ったことがある | メモ | 更新日 |
 | --- | --- | --- | --- | --- |
-| ~~AWS Ground Station~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS Ground Station~~ | - | - | 衛星運用とライセンス/予約が前提で、費用面でも個人には難しい。 | 2026/01/24 |
 
 ### Quantum technologies（Quantum Technologies）
 
 | サービス名 | 知っている | 触ったことがある | メモ | 更新日 |
 | --- | --- | --- | --- | --- |
-| ~~Amazon Braket~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~Amazon Braket~~ | - | - | 量子機の予約は数千ドル/時間規模で、個人には高額。 | 2026/01/24 |
 
 ### Management and governance（管理とガバナンス）
 
@@ -170,7 +170,7 @@
 | AWS CloudTrail | いいえ | いいえ |  |  |
 | AWS Resource Explorer | いいえ | いいえ |  |  |
 | AWS User Notifications | いいえ | いいえ |  |  |
-| ~~AWS Telco Network Builder~~ | いいえ | いいえ | 個人利用は難しそう。 | 2026/01/24 |
+| ~~AWS Telco Network Builder~~ | - | - | 通信事業者向けでMNFI時間課金、個人用途では費用が大きい。 | 2026/01/24 |
 | AWS Partner Central | いいえ | いいえ |  |  |
 
 ### Media（メディアサービス）
