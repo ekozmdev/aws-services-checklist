@@ -38,6 +38,7 @@
 | Amazon EFS | いいえ | いいえ |  |  |
 | Amazon FSx | いいえ | いいえ |  |  |
 | Amazon S3 Glacier | いいえ | いいえ |  |  |
+| Amazon S3 Vectors | はい | いいえ | S3にベクトルを格納し類似検索できる機能で、RAG用途のベクトルストアとして使える。[1] | 2026/01/24 |
 | AWS Storage Gateway | いいえ | いいえ |  |  |
 | AWS Backup | いいえ | いいえ |  |  |
 | AWS Elastic Disaster Recovery | いいえ | いいえ |  |  |
