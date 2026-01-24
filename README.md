@@ -6,13 +6,13 @@
 
 | サービスカテゴリ | サービス名 | 知っている | 触ったことがある | メモ |
 | --- | --- | --- | --- | --- |
-| Compute（コンピューティング） | Amazon EC2 | いいえ | いいえ |  |
+| Compute（コンピューティング） | Amazon EC2 | はい | はい | 業務で運用しており、基本機能に慣れている。 |
 | Compute（コンピューティング） | Amazon Lightsail | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Lambda | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Batch | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Elastic Beanstalk | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Serverless Application Repository | いいえ | いいえ |  |
-| Compute（コンピューティング） | AWS Outposts | いいえ | いいえ |  |
+| Compute（コンピューティング） | ~~AWS Outposts~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Compute（コンピューティング） | Amazon EC2 Image Builder | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS App Runner | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Parallel Computing Service | いいえ | いいえ |  |
@@ -22,7 +22,7 @@
 | Containers（コンテナ） | Amazon ECS | いいえ | いいえ |  |
 | Containers（コンテナ） | Amazon EKS | いいえ | いいえ |  |
 | Containers（コンテナ） | Red Hat OpenShift Service on AWS | いいえ | いいえ |  |
-| Storage（ストレージ） | Amazon S3 | いいえ | いいえ |  |
+| Storage（ストレージ） | Amazon S3 | はい | はい | 運用としては深くないが、触った経験はある。 |
 | Storage（ストレージ） | Amazon EFS | いいえ | いいえ |  |
 | Storage（ストレージ） | Amazon FSx | いいえ | いいえ |  |
 | Storage（ストレージ） | Amazon S3 Glacier | いいえ | いいえ |  |
@@ -39,29 +39,29 @@
 | Databases（データベース） | Amazon DynamoDB | いいえ | いいえ |  |
 | Databases（データベース） | Amazon MemoryDB | いいえ | いいえ |  |
 | Databases（データベース） | Amazon Aurora DSQL | いいえ | いいえ |  |
-| Databases（データベース） | Oracle Database@AWS | いいえ | いいえ |  |
+| Databases（データベース） | ~~Oracle Database@AWS~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Migration and transfer（移行と転送） | AWS Migration Hub | いいえ | いいえ |  |
 | Migration and transfer（移行と転送） | AWS Application Migration Service | いいえ | いいえ |  |
 | Migration and transfer（移行と転送） | AWS Application Discovery Service | いいえ | いいえ |  |
 | Migration and transfer（移行と転送） | AWS Database Migration Service | いいえ | いいえ |  |
 | Migration and transfer（移行と転送） | AWS Transfer Family | いいえ | いいえ |  |
-| Migration and transfer（移行と転送） | AWS Snow Family | いいえ | いいえ |  |
+| Migration and transfer（移行と転送） | ~~AWS Snow Family~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Migration and transfer（移行と転送） | AWS DataSync | いいえ | いいえ |  |
-| Migration and transfer（移行と転送） | AWS Mainframe Modernization | いいえ | いいえ |  |
+| Migration and transfer（移行と転送） | ~~AWS Mainframe Modernization~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Migration and transfer（移行と転送） | AWS Transform | いいえ | いいえ |  |
-| Migration and transfer（移行と転送） | Amazon Elastic VMware Service | いいえ | いいえ |  |
+| Migration and transfer（移行と転送） | ~~Amazon Elastic VMware Service~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon VPC | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon CloudFront | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon API Gateway | いいえ | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS Direct Connect | いいえ | いいえ |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS Direct Connect~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS App Mesh | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS Global Accelerator | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS Cloud Map | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 Application Recovery Controller | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 Global Resolver | いいえ | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS RTB Fabric | いいえ | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS Data Transfer Terminal | いいえ | いいえ |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS RTB Fabric~~ | いいえ | いいえ | 個人利用は難しそう。 |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS Data Transfer Terminal~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Developer tools（開発者用ツール） | AWS CodeCommit | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS CodeBuild | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS CodeDeploy | いいえ | いいえ |  |
@@ -78,14 +78,14 @@
 | Developer tools（開発者用ツール） | AWS App Studio | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS DevOps Agent | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | Kiro | いいえ | いいえ |  |
-| Customer enablement（Customer Enablement） | AWS IQ | いいえ | いいえ |  |
-| Customer enablement（Customer Enablement） | AWS Managed Services | いいえ | いいえ |  |
+| Customer enablement（Customer Enablement） | ~~AWS IQ~~ | いいえ | いいえ | 個人利用は難しそう。 |
+| Customer enablement（Customer Enablement） | ~~AWS Managed Services~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Customer enablement（Customer Enablement） | AWS Activate for Startups | いいえ | いいえ |  |
 | Customer enablement（Customer Enablement） | AWS re:Post Private | いいえ | いいえ |  |
 | Customer enablement（Customer Enablement） | AWS サポート | いいえ | いいえ |  |
 | Blockchain（ブロックチェーン） | Amazon Managed Blockchain | いいえ | いいえ |  |
-| Satellite（衛星） | AWS Ground Station | いいえ | いいえ |  |
-| Quantum technologies（Quantum Technologies） | Amazon Braket | いいえ | いいえ |  |
+| Satellite（衛星） | ~~AWS Ground Station~~ | いいえ | いいえ | 個人利用は難しそう。 |
+| Quantum technologies（Quantum Technologies） | ~~Amazon Braket~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Management and governance（管理とガバナンス） | AWS Organizations | いいえ | いいえ |  |
 | Management and governance（管理とガバナンス） | Amazon CloudWatch | いいえ | いいえ |  |
 | Management and governance（管理とガバナンス） | AWS Auto Scaling | いいえ | いいえ |  |
@@ -112,7 +112,7 @@
 | Management and governance（管理とガバナンス） | AWS CloudTrail | いいえ | いいえ |  |
 | Management and governance（管理とガバナンス） | AWS Resource Explorer | いいえ | いいえ |  |
 | Management and governance（管理とガバナンス） | AWS User Notifications | いいえ | いいえ |  |
-| Management and governance（管理とガバナンス） | AWS Telco Network Builder | いいえ | いいえ |  |
+| Management and governance（管理とガバナンス） | ~~AWS Telco Network Builder~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Management and governance（管理とガバナンス） | AWS Partner Central | いいえ | いいえ |  |
 | Media（メディアサービス） | Amazon Kinesis Video Streams | いいえ | いいえ |  |
 | Media（メディアサービス） | AWS Elemental MediaConvert | いいえ | いいえ |  |
