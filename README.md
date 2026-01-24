@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- |
 | Compute（コンピューティング） | Amazon EC2 | はい | はい | 業務で運用しており、基本機能に慣れている。 |
 | Compute（コンピューティング） | Amazon Lightsail | いいえ | いいえ |  |
-| Compute（コンピューティング） | AWS Lambda | いいえ | いいえ |  |
+| Compute（コンピューティング） | AWS Lambda | はい | いいえ |  |
 | Compute（コンピューティング） | AWS Batch | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Elastic Beanstalk | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Serverless Application Repository | いいえ | いいえ |  |
@@ -18,9 +18,9 @@
 | Compute（コンピューティング） | AWS Parallel Computing Service | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS SimSpace Weaver | いいえ | いいえ |  |
 | Compute（コンピューティング） | AWS Global View | いいえ | いいえ |  |
-| Containers（コンテナ） | Amazon ECR | いいえ | いいえ |  |
-| Containers（コンテナ） | Amazon ECS | いいえ | いいえ |  |
-| Containers（コンテナ） | Amazon EKS | いいえ | いいえ |  |
+| Containers（コンテナ） | Amazon ECR | はい | はい |  |
+| Containers（コンテナ） | Amazon ECS | はい | いいえ |  |
+| Containers（コンテナ） | Amazon EKS | はい | いいえ |  |
 | Containers（コンテナ） | Red Hat OpenShift Service on AWS | いいえ | いいえ |  |
 | Storage（ストレージ） | Amazon S3 | はい | はい | 運用としては深くないが、触った経験はある。 |
 | Storage（ストレージ） | Amazon EFS | いいえ | いいえ |  |
@@ -30,7 +30,7 @@
 | Storage（ストレージ） | AWS Backup | いいえ | いいえ |  |
 | Storage（ストレージ） | AWS Elastic Disaster Recovery | いいえ | いいえ |  |
 | Storage（ストレージ） | Recycle Bin | いいえ | いいえ |  |
-| Databases（データベース） | Amazon RDS | いいえ | いいえ |  |
+| Databases（データベース） | Amazon RDS | はい | いいえ |  |
 | Databases（データベース） | Amazon ElastiCache | いいえ | いいえ |  |
 | Databases（データベース） | Amazon Neptune | いいえ | いいえ |  |
 | Databases（データベース） | Amazon DocumentDB | いいえ | いいえ |  |
@@ -50,10 +50,10 @@
 | Migration and transfer（移行と転送） | ~~AWS Mainframe Modernization~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Migration and transfer（移行と転送） | AWS Transform | いいえ | いいえ |  |
 | Migration and transfer（移行と転送） | ~~Amazon Elastic VMware Service~~ | いいえ | いいえ | 個人利用は難しそう。 |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon VPC | いいえ | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon CloudFront | いいえ | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 | いいえ | いいえ |  |
-| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon API Gateway | いいえ | いいえ |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon VPC | はい | いいえ |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon CloudFront | はい | はい |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 | はい | いいえ |  |
+| Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon API Gateway | はい | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS Direct Connect~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS App Mesh | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | AWS Global Accelerator | いいえ | いいえ |  |
@@ -62,12 +62,12 @@
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | Amazon Route 53 Global Resolver | いいえ | いいえ |  |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS RTB Fabric~~ | いいえ | いいえ | 個人利用は難しそう。 |
 | Networking and content delivery（ネットワーキングとコンテンツ配信） | ~~AWS Data Transfer Terminal~~ | いいえ | いいえ | 個人利用は難しそう。 |
-| Developer tools（開発者用ツール） | AWS CodeCommit | いいえ | いいえ |  |
-| Developer tools（開発者用ツール） | AWS CodeBuild | いいえ | いいえ |  |
-| Developer tools（開発者用ツール） | AWS CodeDeploy | いいえ | いいえ |  |
-| Developer tools（開発者用ツール） | AWS CodePipeline | いいえ | いいえ |  |
-| Developer tools（開発者用ツール） | AWS Cloud9 | いいえ | いいえ |  |
-| Developer tools（開発者用ツール） | AWS CloudShell | いいえ | いいえ |  |
+| Developer tools（開発者用ツール） | AWS CodeCommit | はい | はい |  |
+| Developer tools（開発者用ツール） | AWS CodeBuild | はい | はい |  |
+| Developer tools（開発者用ツール） | AWS CodeDeploy | はい | いいえ |  |
+| Developer tools（開発者用ツール） | AWS CodePipeline | はい | はい |  |
+| Developer tools（開発者用ツール） | AWS Cloud9 | はい | いいえ |  |
+| Developer tools（開発者用ツール） | AWS CloudShell | はい | はい |  |
 | Developer tools（開発者用ツール） | AWS X-Ray | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS FIS | いいえ | いいえ |  |
 | Developer tools（開発者用ツール） | AWS CodeArtifact | いいえ | いいえ |  |
@@ -132,12 +132,12 @@
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon CodeGuru | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Fraud Detector | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Forecast | いいえ | いいえ |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Kendra | いいえ | いいえ |  |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Kendra | はい | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Personalize | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Polly | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Rekognition | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Textract | いいえ | いいえ |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Transcribe | いいえ | いいえ |  |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Transcribe | はい | はい |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Translate | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS Panorama | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Monitron | いいえ | いいえ |  |
@@ -146,8 +146,8 @@
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Lex | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Comprehend Medical | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS HealthOmics | いいえ | いいえ |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock | いいえ | いいえ |  |
-| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock AgentCore | いいえ | いいえ |  |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock | はい | はい |  |
+| Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Bedrock AgentCore | はい | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Nova Act | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | AWS HealthImaging | いいえ | いいえ |  |
 | Machine Learning (ML) and Artificial Intelligence (AI)（機械学習） | Amazon Q Business | いいえ | いいえ |  |
@@ -155,7 +155,7 @@
 | Analytics（分析） | Amazon Athena | いいえ | いいえ |  |
 | Analytics（分析） | Amazon Redshift | いいえ | いいえ |  |
 | Analytics（分析） | Amazon CloudSearch | いいえ | いいえ |  |
-| Analytics（分析） | Amazon OpenSearch Service | いいえ | いいえ |  |
+| Analytics（分析） | Amazon OpenSearch Service | はい | いいえ |  |
 | Analytics（分析） | Amazon Kinesis | いいえ | いいえ |  |
 | Analytics（分析） | Amazon QuickSight | いいえ | いいえ |  |
 | Analytics（分析） | AWS Data Exchange | いいえ | いいえ |  |
@@ -173,14 +173,14 @@
 | Analytics（分析） | Amazon Managed Service for Apache Flink | いいえ | いいえ |  |
 | Analytics（分析） | Amazon Quick Suite | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Resource Access Manager | いいえ | いいえ |  |
-| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Cognito | いいえ | いいえ |  |
+| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Cognito | はい | はい |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Secrets Manager | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon GuardDuty | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Inspector | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | Amazon Macie | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS IAM Identity Center | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Certificate Manager | いいえ | いいえ |  |
-| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Key Management Service | いいえ | いいえ |  |
+| Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Key Management Service | はい | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS CloudHSM | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS Directory Service | いいえ | いいえ |  |
 | Security, identity, and compliance（セキュリティ、ID、およびコンプライアンス） | AWS WAF | いいえ | いいえ |  |
