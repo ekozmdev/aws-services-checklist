@@ -9,6 +9,7 @@
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
 | Amazon EC2 | はい | 業務で運用しており、基本機能に慣れている。 |
+| Amazon EC2 Capacity Manager | はい | AWS公式のWhat's Newとドキュメントで実在を確認。現状は商用リージョンで利用可能と案内されている。[1] |
 | Amazon Lightsail | いいえ |  |
 | AWS Lambda | はい |  |
 | AWS Batch | いいえ |  |
@@ -83,6 +84,7 @@
 | Amazon Route 53 | はい |  |
 | Amazon API Gateway | はい |  |
 | ~~AWS Direct Connect~~ | - | 専用線のポート時間料金が発生し、回線事業者費用もあり高コスト。 |
+| AWS Interconnect | はい | AWS公式で実在を確認。Interconnect - multicloudは現状プレビュー提供で、利用可能リージョンが限定される。[1] |
 | AWS App Mesh | いいえ |  |
 | AWS Global Accelerator | いいえ |  |
 | AWS Cloud Map | いいえ |  |
@@ -187,6 +189,7 @@
 | AWS Elemental Appliances & Software | いいえ |  |
 | Amazon Elastic Transcoder | いいえ |  |
 | AWS Elemental MediaConnect | いいえ |  |
+| AWS Elemental MediaConnect Router | はい | AWS公式の発表と機能ページで実在を確認。現状は標準AWSリージョンで利用可能と案内されている。[1] |
 | Amazon Interactive Video Service | いいえ |  |
 | AWS Deadline Cloud | いいえ |  |
 
