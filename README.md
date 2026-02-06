@@ -29,8 +29,8 @@
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
 | Amazon ECR | はい | コンテナイメージを置く理解で利用した。脆弱性スキャンは未利用。 |
-| Amazon ECS | はい |  |
-| Amazon EKS | はい |  |
+| Amazon ECS | はい | コンテナ動かすところ |
+| Amazon EKS | はい | k8sのやつ |
 | Red Hat OpenShift Service on AWS | いいえ |  |
 
 ### Storage（ストレージ）
@@ -81,7 +81,7 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon VPC | はい |  |
+| Amazon VPC | はい | EC2作るときにつけてるくらい |
 | Amazon CloudFront | はい | 配信サービスとして理解し、Reactビルドの配信で使った。 |
 | Amazon Route 53 | はい |  |
 | Amazon API Gateway | はい |  |
@@ -108,13 +108,13 @@
 | AWS X-Ray | はい | トレーシングで言及されていた。[3] |
 | AWS FIS | いいえ |  |
 | AWS CodeArtifact | いいえ |  |
-| Amazon Q Developer | いいえ |  |
+| Amazon Q Developer | はい | 知ってるけど、Kiroしか使ったことない |
 | Amazon CodeCatalyst | いいえ |  |
 | AWS AppConfig | いいえ |  |
 | Application Composer | いいえ |  |
 | AWS App Studio | いいえ |  |
 | AWS DevOps Agent | いいえ |  |
-| Kiro | いいえ |  |
+| Kiro | はい | 使っている |
 
 ### Customer enablement（Customer Enablement）
 
@@ -122,9 +122,9 @@
 | --- | --- | --- |
 | ~~AWS IQ~~ | - | 企業案件の発注・受託が前提で、個人利用には費用対効果が低い。 |
 | ~~AWS Managed Services~~ | - | 運用代行の企業向けサービスで、料金は営業問い合わせ前提。 |
-| AWS Activate for Startups | - | スタートアップ向けの申請・審査が前提で、個人利用は難しい。 |
-| AWS re:Post Private | いいえ |  |
-| AWS サポート | いいえ |  |
+| ~~AWS Activate for Startups~~ | - | スタートアップ向けの申請・審査が前提で、個人利用は難しい。 |
+| AWS re:Post Private | はい | AWSが管理/提供するコミュニティ型のパブリックなQ&Aプラットフォーム |
+| AWS サポート | はい | まだ使ったことないけど、サポートリクエスト出すところくらいの認識 |
 
 ### Blockchain（ブロックチェーン）
 
@@ -293,7 +293,7 @@
 | --- | --- | --- |
 | AWS Marketplace Subscriptions | いいえ |  |
 | AWS Billing Conductor | いいえ |  |
-| AWS Billing and Cost Management | いいえ |  |
+| AWS Billing and Cost Management | はい | コスト確認で使っているところ |
 
 ### Front-end web and mobile（モバイル）
 
@@ -339,10 +339,11 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon WorkSpaces | いいえ |  |
-| Amazon WorkSpaces Web | いいえ |  |
-| Amazon WorkSpaces Thin Client | いいえ |  |
-| Amazon WorkSpaces Applications | いいえ |  |
+| Amazon WorkSpaces | はい | 仮想デスクトップサービス、VDIのサービス |
+| Amazon WorkSpaces Secure Browser | いいえ | ブラウザだけクラウドで動かす |
+| Amazon WorkSpaces Thin Client | はい | シンクラの端末(Echo見たいな見た目)とそこからの接続 |
+| Amazon WorkSpaces Core | はい | 他社の VDI ソフトウェアを使いつつ、裏側の VDI インフラを AWS 側で持つ |
+| WorkSpaces Applications | はい | デスクトップアプリだけ配信するやつ、AVDにもあった気がする |
 
 ### Internet of Things (IoT)
 
@@ -362,19 +363,19 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon GameLift Servers | いいえ |  |
-| Amazon GameLift Streams | いいえ |  |
+| Amazon GameLift Servers | はい | ゲーム用のサーバーをを用意するサービスる |
+| Amazon GameLift Streams | はい | グラフィックが重いゲームをクラウドで動かして画面をストリーミングするやつ |
 
 ### その他（コンソール一覧外）
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon EBS | いいえ |  |
-| Amazon EC2 Auto Scaling | いいえ |  |
+| Amazon EBS | はい | EC2につけるくらいは知っている |
+| Amazon EC2 Auto Scaling | はい | 自動で配下のEC2マシンを増減させる |
 | Amazon VPC IP Address Manager | いいえ |  |
 | AWS Network Firewall | いいえ |  |
-| AWS CDK | いいえ |  |
-| AWS CLI | いいえ |  |
+| AWS CDK | はい | ちゃんと使えてないが、サンプルコード動かしたことはある |
+| AWS CLI | はい | 使っている |
 | AWS Copilot | いいえ |  |
 | Amazon Corretto | いいえ |  |
 | Amazon Mechanical Turk | いいえ |  |
