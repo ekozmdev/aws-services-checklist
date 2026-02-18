@@ -4,13 +4,13 @@
 
 ## チェックリスト
 
-- 調査進捗（`はい` / `はい`+`いいえ`）: **51 / 289**
+- 調査進捗（`はい` / `はい`+`いいえ`）: **66 / 251**
 
 ### Compute（コンピューティング）
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon EC2 | はい | 業務で運用しており、基本機能に慣れている。 |
+| Amazon EC2 | はい | インスタンスタイプやIP種別、ENI、キーペアの基本を整理して理解した。 |
 | Amazon EC2 Capacity Manager | はい | AWS公式のWhat's Newとドキュメントで実在を確認。現状は商用リージョンで利用可能と案内されている。[1] |
 | Amazon Lightsail | いいえ |  |
 | AWS Lambda | はい |  |
@@ -37,7 +37,7 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon S3 | はい | 運用としては深くないが、触った経験はある。 |
+| Amazon S3 | はい | バケットポリシー中心のアクセス制御とブロックパブリックアクセスの重要性を理解した。 |
 | Amazon EFS | いいえ |  |
 | Amazon FSx | いいえ |  |
 | Amazon S3 Glacier | いいえ |  |
@@ -51,7 +51,7 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon RDS | はい |  |
+| Amazon RDS | はい | マネージドDBとして冗長化やリードレプリカを前提に運用できる点を理解した。 |
 | Amazon ElastiCache | いいえ |  |
 | Amazon Neptune | いいえ |  |
 | Amazon DocumentDB | いいえ |  |
@@ -81,7 +81,7 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon VPC | はい | EC2作るときにつけてるくらい |
+| Amazon VPC | はい | サブネット、ルートテーブル、IGW、NACL/SGの役割分担を運用観点で整理した。 |
 | Amazon CloudFront | はい | 配信サービスとして理解し、Reactビルドの配信で使った。 |
 | Amazon Route 53 | はい |  |
 | Amazon API Gateway | はい |  |
@@ -151,28 +151,28 @@
 | AWS Organizations | いいえ |  |
 | Amazon CloudWatch | はい | 運用・監視の文脈を把握した。[3] |
 | CloudWatch Logs | はい | ログ運用の位置づけを把握した。[3] |
-| AWS Auto Scaling | いいえ |  |
+| AWS Auto Scaling | はい | 需要に応じた自動スケーリングの考え方と運用上の前提を把握した。 |
 | AWS CloudFormation | いいえ |  |
-| AWS Config | いいえ |  |
+| AWS Config | はい | 構成情報と変更履歴を記録し、準拠チェックに使うサービスとして理解した。 |
 | AWS Service Catalog | いいえ |  |
-| AWS Systems Manager | いいえ |  |
+| AWS Systems Manager | はい | インスタンスの起動停止スケジュールやパッチ運用に関わるサービスとして把握した。 |
 | AWS Trusted Advisor | いいえ |  |
 | AWS Control Tower | いいえ |  |
 | AWS License Manager | いいえ |  |
-| AWS Well-Architected Tool | いいえ |  |
+| AWS Well-Architected Tool | はい | Well-Architected Frameworkの観点を整理する入口として存在を把握した。 |
 | AWS Health Dashboard | いいえ |  |
 | AWS Chatbot | いいえ |  |
 | AWS Launch Wizard | いいえ |  |
-| AWS Compute Optimizer | いいえ |  |
-| AWS Resource Groups | いいえ |  |
-| Tag Editor | いいえ |  |
+| AWS Compute Optimizer | はい | EC2の適正スペック判断に使い、コスト最適化に活用する考え方を理解した。 |
+| AWS Resource Groups | はい | タグで運用対象をまとめ、管理しやすくする使い方を把握した。 |
+| Tag Editor | はい | 複数リソースのタグを一括で編集・整備する用途を理解した。 |
 | Amazon Managed Service for Grafana | いいえ |  |
 | Amazon Managed Service for Prometheus | いいえ |  |
 | AWS Resilience Hub | いいえ |  |
 | Incident Manager | いいえ |  |
 | Service Quotas | いいえ |  |
 | AWS Proton | いいえ |  |
-| AWS CloudTrail | いいえ |  |
+| AWS CloudTrail | はい | API操作ログの監査証跡を扱う基盤で、長期保存はS3連携で補う運用を理解した。 |
 | AWS Resource Explorer | いいえ |  |
 | AWS User Notifications | いいえ |  |
 | ~~AWS Telco Network Builder~~ | - | 通信事業者向けでMNFI時間課金、個人用途では費用が大きい。 |
@@ -262,22 +262,22 @@
 | AWS Resource Access Manager | いいえ |  |
 | Amazon Cognito | はい | 認証サービスだと理解しているが、設定手順はまだ不明。関連: [3]。 |
 | AWS Secrets Manager | いいえ |  |
-| Amazon GuardDuty | いいえ |  |
+| Amazon GuardDuty | はい | 各種ログを分析して脅威検知し、通知連携で初動につなげる運用を把握した。 |
 | Amazon Inspector | いいえ |  |
 | Amazon Macie | いいえ |  |
 | AWS IAM Identity Center | いいえ |  |
-| AWS Certificate Manager | いいえ |  |
-| AWS Key Management Service | はい |  |
+| AWS Certificate Manager | はい | ALBなどで使う証明書を管理し、更新運用を簡素化できる点を理解した。 |
+| AWS Key Management Service | はい | 暗号化キーを集中管理するサービスとして、Secrets Managerとの役割差を整理した。 |
 | AWS CloudHSM | いいえ |  |
 | AWS Directory Service | いいえ |  |
-| AWS WAF | いいえ |  |
+| AWS WAF | はい | ルールベースでWebトラフィックを制御し、WCUを意識して設計する点を学んだ。 |
 | AWS Shield | いいえ |  |
 | AWS Firewall Manager | いいえ |  |
-| AWS Artifact | いいえ |  |
+| AWS Artifact | はい | AWS側の監査関連ドキュメントを取得する窓口として把握した。 |
 | Amazon Detective | いいえ |  |
 | AWS Signer | いいえ |  |
 | AWS Private Certificate Authority | いいえ |  |
-| AWS Security Hub | いいえ |  |
+| AWS Security Hub | はい | 複数の検知結果を集約して統制状況を確認する基盤として理解した。 |
 | AWS Audit Manager | いいえ |  |
 | Amazon Security Lake | いいえ |  |
 | AWS Security Incident Response | いいえ |  |
@@ -285,7 +285,7 @@
 | AWS IAM | いいえ |  |
 | AWS Payment Cryptography | いいえ |  |
 | AWS Security Agent | いいえ |  |
-| AWS Security Hub CSPM | いいえ |  |
+| AWS Security Hub CSPM | はい | Config連携でセキュリティ設定の準拠状態を継続評価する機能として把握した。 |
 
 ### Cloud Financial Management（クラウド財務管理）
 
@@ -293,7 +293,7 @@
 | --- | --- | --- |
 | AWS Marketplace Subscriptions | いいえ |  |
 | AWS Billing Conductor | いいえ |  |
-| AWS Billing and Cost Management | はい | コスト確認で使っているところ |
+| AWS Billing and Cost Management | はい | Budgets、異常検知、Cost Explorerを使い、継続的にコスト監視する重要性を学んだ。 |
 
 ### Front-end web and mobile（モバイル）
 
@@ -370,8 +370,8 @@
 
 | サービス名 | 調べたか | メモ |
 | --- | --- | --- |
-| Amazon EBS | はい | EC2につけるくらいは知っている |
-| Amazon EC2 Auto Scaling | はい | 自動で配下のEC2マシンを増減させる |
+| Amazon EBS | はい | ブロックストレージとして使い、スナップショット運用が重要だと理解した。 |
+| Amazon EC2 Auto Scaling | はい | 起動テンプレートとポリシーを使い、条件に応じて台数を自動増減する仕組みを理解した。 |
 | Amazon VPC IP Address Manager | いいえ |  |
 | AWS Network Firewall | いいえ |  |
 | AWS CDK | はい | ちゃんと使えてないが、サンプルコード動かしたことはある |
@@ -386,7 +386,7 @@
 | AWS re:Post | いいえ |  |
 | AWS Schema Conversion Tool | いいえ |  |
 | AWS Wavelength | いいえ |  |
-| Elastic Load Balancing | いいえ |  |
+| Elastic Load Balancing | はい | ALB/NLBで負荷分散し、ヘルスチェックで正常な宛先へ転送する運用を理解した。 |
 | Amazon FreeRTOS | いいえ |  |
 | TensorFlow on AWS | いいえ |  |
 | VMware Cloud on AWS | いいえ |  |
@@ -406,3 +406,4 @@
 1. [AWS公式ドキュメント](https://docs.aws.amazon.com/ja_jp/)
 2. [AWSサービス一覧 2026（クラスメソッド）](https://dev.classmethod.jp/articles/aws-summary-2026/)
 3. [AIエージェント開発／運用入門［生成AI深掘りガイド］](https://www.sbcr.jp/product/4815636609/)
+4. AWS運用入門 改訂第2版
