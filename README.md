@@ -406,4 +406,4 @@
 1. [AWS公式ドキュメント](https://docs.aws.amazon.com/ja_jp/)
 2. [AWSサービス一覧 2026（クラスメソッド）](https://dev.classmethod.jp/articles/aws-summary-2026/)
 3. [AIエージェント開発／運用入門［生成AI深掘りガイド］](https://www.sbcr.jp/product/4815636609/)
-4. AWS運用入門 改訂第2版
+4. [AWS運用入門 改訂第2版](https://www.sbcr.jp/product/4815631086/)
